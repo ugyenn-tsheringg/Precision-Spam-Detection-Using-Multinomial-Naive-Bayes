@@ -76,8 +76,9 @@ Used a custom train_classifier function to compute accuracy and precision for ea
 - Key results (initial evaluation with max_features=3000):
 
 <div align="center">
-  <img src="Before_Improvement.png" height="50%" width="auto">
+  <img src="Before_Improvement.png" height="auto" width="70%" />
 </div>
+
 **Outcome**: Multinomial Naive Bayes was selected due to its perfect precision (1.0) and high accuracy (0.9719).
 
 ## 6. Model Improvement
@@ -85,8 +86,9 @@ Used a custom train_classifier function to compute accuracy and precision for ea
 **Actions**:
 - TF-IDF Tuning: Adjusted TfidfVectorizer to max_features=3000 (previously unspecified) to capture more features.
 - Re-evaluated models with updated TF-IDF features:
+
 <div align="center">
-  <img src="After_Improvemet.png"  height="50%" width="auto">
+  <img src="After_Improvemet.png"  height="auto" width="70%"/>
 </div>
 
 **Voting Classifier:**
