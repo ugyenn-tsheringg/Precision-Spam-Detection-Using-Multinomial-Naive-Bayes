@@ -76,7 +76,7 @@ Used a custom train_classifier function to compute accuracy and precision for ea
 - Key results (initial evaluation with max_features=3000):
 
 <div align="center">
-  <img src="Before_Improvement.png" height="auto" width="70%" />
+  <img src="Before_Improvement.png" height="50%" width="auto" />
 </div>
 
 **Outcome**: Multinomial Naive Bayes was selected due to its perfect precision (1.0) and high accuracy (0.9719).
