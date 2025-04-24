@@ -1,0 +1,4 @@
+nltk
+streamlit
+streamlit_lottie
+scikit-learn
