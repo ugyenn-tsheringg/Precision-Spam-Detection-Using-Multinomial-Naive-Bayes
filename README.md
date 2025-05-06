@@ -84,7 +84,7 @@ Used a custom train_classifier function to compute accuracy and precision for ea
 **Outcome**: Multinomial Naive Bayes was selected due to its perfect precision (1.0) and high accuracy (0.9719).
 
 ## 6. Model Improvement
-**Objective**: Enhance the model's performance through hyperparameter tuning and ensemble methods.
+**Objective**: Enhance the model's performance through hyperparameter tuning and ensemble methods.  
 **Actions**:
 - TF-IDF Tuning: Adjusted TfidfVectorizer to max_features=3000 (previously unspecified) to capture more features.
 - Re-evaluated models with updated TF-IDF features:
@@ -110,15 +110,6 @@ Used a custom train_classifier function to compute accuracy and precision for ea
 - Saved the Multinomial Naive Bayes model as model.pkl using pickle.
 
 **Outcome**: Model and vectorizer are ready for integration into a web application.
-
-## 8. Website and Deployment (Planned)
-Objective: Create a user-friendly interface for spam detection using Streamlit and deploy it.
-Planned Actions:
-Develop a web application using a framework like Flask or Django.
-Integrate the saved vectorizer.pkl and model.pkl for real-time predictions.
-Deploy the application on Heroku.
-
-**Status**: Not implemented in the provided code but outlined as future steps.
 
 ## Code Description
 The implementation is contained in a Jupyter Notebook (Spam-detection.ipynb). Key components include:
