@@ -93,9 +93,15 @@ Below is a detailed breakdown of each step, including code snippets, results, an
   ```
   - **Ham**: 4,516 messages (87.4%)
   - **Spam**: 653 messages (12.6%)
-  - Visualized using a pie chart (via `matplotlib` and `seaborn`).
 
 - **Text characteristics**: Explored word count, character count, and sentence length to identify differences between spam and ham messages. Spam messages often contained promotional keywords like "win", "free", and "prize".
+
+<div align="center">
+  <img src="assets/histogram.png">
+  <img src="assets/pairplot_heatmap.png">
+  <img src="assets/top_words.png">
+  <img src="assets/word_cloud.png">
+</div>
 
 **Outcome**: The dataset is imbalanced, with spam messages being significantly less frequent. This imbalance suggests that precision is a critical metric to avoid misclassifying ham messages as spam.
 
