@@ -1,13 +1,15 @@
 # Precision Spam Detection Using Multinomial Naive Bayes
 
 ## Overview
-This project implements a machine learning-based spam detection system to classify SMS messages as either spam or ham (non-spam). The dataset used contains SMS messages labeled as spam or ham, and the goal is to build a model that accurately identifies spam messages with high precision. The project follows a structured pipeline, from data cleaning to model deployment, and includes a web interface for real-time predictions.
+This project implements a machine learning-based spam detection system to classify SMS messages as either spam or ham (non-spam). The dataset used contains SMS messages labeled as spam or ham, and the goal is to build a model that accurately identifies spam messages with high precision. 
 
 ## Dataset
-The dataset (spam.csv) consists of 5,572 SMS messages with the following columns:
-v1: Label (ham or spam)
-v2: Text of the SMS message
-Unnamed: 2, Unnamed: 3, Unnamed: 4: Mostly empty columns with sparse data
+The dataset (spam.csv) consists of 5,572 SMS messages with the following columns:  
+v1: Label (ham or spam)  
+v2: Text of the SMS message  
+Unnamed: 2,  
+Unnamed: 3,  
+Unnamed: 4: Mostly empty columns with sparse data
 
 After preprocessing, the dataset is reduced to 5,169 unique messages due to duplicate removal.
 
